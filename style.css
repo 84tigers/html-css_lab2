@@ -93,10 +93,11 @@ a {
     }
 
     nav {
+        width: 98%;
         flex-direction: row;
         justify-content: space-between;
         text-align: center;
-        width: 98%;
+        
     }
 
     .navbut {
@@ -107,5 +108,85 @@ a {
     .scroll {
         width: 25%;
         margin: 0 auto;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+    }  
+    nav {
+        width:50%;
+        justify-content: space-around;
+    }
+    a {
+        align-self: center;
+        padding-left: 1em;
+    }
+
+    .bottom {
+        display:flex;
+        justify-content: space-between;
+        align-content: flex-start;
+        margin-top: 6em;
+
+    }
+
+    .toleft, .toright {
+        width: 45%;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .toright {
+        
+        display: inline-block;
+        position: relative;
+    }
+    
+    .circle_l {
+        background-color: rgba(247, 136, 167, 0.6);
+        width: 320px;
+        height: 320px;
+        border-radius: 100%;
+    }
+    
+    .circle_m {
+        background-color: rgba(247, 193, 162, 0.7);
+        width: 220px;
+        height: 220px;
+        border-radius: 100%;
+        position: absolute;
+        bottom: -60px;
+        left: 35%;
+    }
+    
+    .circle_s {
+        background-color: rgba(207, 130, 213, 0.6);
+        width: 160px;
+        height: 160px;
+        border-radius: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 120px;
+    }
+    
+    .scroll {
+        display: block;
+        color: white;
+        background-color: #000;
+        border-radius: 33px;
+        width: 100px;
+        padding: 0.75em 1em;
+        margin: 0;
+        text-align: center;
+        position: fixed;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
     }
   }
