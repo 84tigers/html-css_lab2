@@ -23,7 +23,6 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
 }
 
 .navbut {
@@ -42,7 +41,6 @@ p {
     border: none;
     border-left: 2px solid #69696a;
     padding-left: 1em;
-    /* padding-right: 4em; */
 }
 
 a, p {
@@ -61,8 +59,6 @@ h2 {
 h2, a, h1, p, button {
     font-family: 'Open Sans', sans-serif;
 }
-
-
 
 a {
     font-size: 16px;
@@ -97,7 +93,6 @@ a {
         flex-direction: row;
         justify-content: space-between;
         text-align: center;
-        
     }
 
     .navbut {
@@ -117,10 +112,12 @@ a {
         justify-content: space-between;
         align-content: center;
     }  
+
     nav {
         width:50%;
         justify-content: space-around;
     }
+
     a {
         align-self: center;
         padding-left: 1em;
@@ -131,7 +128,6 @@ a {
         justify-content: space-between;
         align-content: flex-start;
         margin-top: 6em;
-
     }
 
     .toleft, .toright {
@@ -143,7 +139,6 @@ a {
     }
 
     .toright {
-        
         display: inline-block;
         position: relative;
     }
